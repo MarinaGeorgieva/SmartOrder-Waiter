@@ -17,6 +17,7 @@
 		1D9E5C5B1D2C2BAC002BF294 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9E5C5A1D2C2BAC002BF294 /* RequestManager.swift */; };
 		1D9E5C5D1D2C2BFA002BF294 /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9E5C5C1D2C2BFA002BF294 /* JsonParser.swift */; };
 		1D9E5C611D2C50FF002BF294 /* TablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9E5C601D2C50FF002BF294 /* TablesViewController.swift */; };
+		BD1148621D2C799C006B5C51 /* TableCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1148611D2C799C006B5C51 /* TableCustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		1D9E5C5A1D2C2BAC002BF294 /* RequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
 		1D9E5C5C1D2C2BFA002BF294 /* JsonParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
 		1D9E5C601D2C50FF002BF294 /* TablesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TablesViewController.swift; sourceTree = "<group>"; };
+		BD1148611D2C799C006B5C51 /* TableCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				1D9E5C291D2C295A002BF294 /* AppDelegate.swift */,
 				1D9E5C2B1D2C295A002BF294 /* ViewController.swift */,
 				1D9E5C601D2C50FF002BF294 /* TablesViewController.swift */,
+				BD1148611D2C799C006B5C51 /* TableCustomCell.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				1D9E5C5D1D2C2BFA002BF294 /* JsonParser.swift in Sources */,
 				1D9E5C611D2C50FF002BF294 /* TablesViewController.swift in Sources */,
 				1D9E5C2A1D2C295A002BF294 /* AppDelegate.swift in Sources */,
+				BD1148621D2C799C006B5C51 /* TableCustomCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +524,7 @@
 				1D9E5C501D2C295A002BF294 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D9E5C511D2C295A002BF294 /* Build configuration list for PBXNativeTarget "SmartOrderWaiterTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +533,7 @@
 				1D9E5C531D2C295A002BF294 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D9E5C541D2C295A002BF294 /* Build configuration list for PBXNativeTarget "SmartOrderWaiterUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +542,7 @@
 				1D9E5C561D2C295A002BF294 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
