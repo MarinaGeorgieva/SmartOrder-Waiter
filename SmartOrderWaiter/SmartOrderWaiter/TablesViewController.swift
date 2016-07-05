@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TablesViewController: UIViewController {
+class TablesViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
 
     let url = "https://cryptic-mountain-25848.herokuapp.com/api/tables.php"
     
@@ -18,8 +18,8 @@ class TablesViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-//        self.collectionView.dataSource = self
-//        self.collectionView.delegate = self
+        self.collectionView.dataSource = self
+        self.collectionView.delegate = self
         
         let request = RequestManager(requestUrl: url)
         request.getRequest()
@@ -42,6 +42,16 @@ class TablesViewController: UIViewController {
         else{
             print("Error came up")
         }
+    }
+    
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+//        return Menu.sharedInstance.menuLength()
+    }
+    
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        let cellID = "TableCell"
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(cellID, forIndexPath: indexPath)
+        return cell
     }
 
     /*
