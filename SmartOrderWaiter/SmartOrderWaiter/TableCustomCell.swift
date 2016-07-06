@@ -11,4 +11,14 @@ import UIKit
 class TableCustomCell: UICollectionViewCell {
     
     @IBOutlet weak var tableNumber: UILabel!
+    @IBOutlet weak var orderImg: UIImageView!
+    @IBOutlet weak var billImg: UIImageView!
+
+    override func awakeFromNib() {
+        print("hello")
+    }
+
+    func addTableNumber(tableID: Int){
+        self.tableNumber.text = "Table number: \(tableID)"
+    }
 }

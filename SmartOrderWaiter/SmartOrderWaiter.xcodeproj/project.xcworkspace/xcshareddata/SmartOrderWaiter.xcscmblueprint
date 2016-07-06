@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9459F314E5A02C4EBEFBE31D616726E92115ED83",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9459F314E5A02C4EBEFBE31D616726E92115ED83" : 0,
+    "9AAE0A4145C0272F8F4BEE52B2A886C6FAC4436E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DA21085D-1C91-4DCA-9D45-FC75CF656218",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9459F314E5A02C4EBEFBE31D616726E92115ED83" : "SmartOrder-Waiter\/",
+    "9AAE0A4145C0272F8F4BEE52B2A886C6FAC4436E" : "..\/SmartOrder"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SmartOrderWaiter",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SmartOrderWaiter\/SmartOrderWaiter.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MarinaGeorgieva\/SmartOrder-Waiter.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9459F314E5A02C4EBEFBE31D616726E92115ED83"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/emiliev\/SmartOrder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9AAE0A4145C0272F8F4BEE52B2A886C6FAC4436E"
+    }
+  ]
+}
